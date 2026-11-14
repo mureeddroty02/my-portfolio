@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mureed Hussain Droty | AI & NLP Researcher</title>
+  <meta name="description" content="Portfolio of Mureed Hussain Droty, Computer Science graduate and aspiring AI researcher focused on NLP and low-resource language translation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#home" class="logo">MHD<span>.</span></a>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme" aria-label="Toggle theme">🌓</button>
+      <button id="burger" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Mureed Hussain <span class="grad">Droty</span></h1>
+      <h2><span id="typed"></span><span class="cursor">|</span></h2>
+      <p class="lead">Computer Science graduate passionate about AI, NLP and research, building intelligent systems that preserve languages and solve real-world problems.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+        <a class="btn ghost" href="resume.pdf" download>Download CV</a>
+      </div>
+      <div class="stats">
+        <div><b>3.56</b><span>CGPA / 4.0</span></div>
+        <div><b>3+</b><span>Projects</span></div>
+        <div><b>5+</b><span>Certifications</span></div>
+      </div>
+    </div>
+    <div class="hero-img">
+     <div class="ring"></div> 
+      <img src="D:\Downloads\websites\images\Mureed's image.png" alt="Mureed Hussain Droty" onerror="this.onerror=null;this.src='images/placeholder-profile.svg'" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h3 class="title reveal">About <span class="grad">Me</span></h3>
+    <div class="about-grid">
+      <div class="card reveal">
+        <p>I am a Computer Science graduate from the University of Baltistan, Skardu, with a strong foundation in Programming, Object-Oriented Programming, Data Structures and Algorithms, Computer Networks, Artificial Intelligence, Web Development and Mobile App Development.</p>
+        <p>My journey has been shaped by project-based learning and analytical problem-solving. I am especially interested in applying intelligent computational methods to real-world challenges, such as bringing low-resource regional languages into the digital world.</p>
+        <p>I am looking for a research opportunity under an experienced professor, where I can grow my research skills, deepen my knowledge of AI and emerging technologies, and contribute to meaningful projects. My long-term goal is advanced research in AI that leads to innovative, socially impactful solutions.</p>
+      </div>
+      <div class="card reveal info">
+        <ul>
+          <li><span>📍</span> Gilgit-Baltistan, Pakistan</li>
+          <li><span>🎓</span> BS Computer Science, 2026</li>
+          <li><span>🔬</span> Focus: AI &amp; NLP</li>
+          <li><span>✉️</span> mureeddroty@gmail.com</li>
+          <li><span>📞</span> +92 370085882</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h3 class="title reveal">My <span class="grad">Skills</span></h3>
+    <div class="skills-grid">
+      <div class="card reveal">
+        <h4>Technical</h4>
+        <div class="bar"><label>Python</label><i data-w="88"></i></div>
+        <div class="bar"><label>Machine Learning</label><i data-w="82"></i></div>
+        <div class="bar"><label>NLP &amp; Deep Learning (TensorFlow)</label><i data-w="80"></i></div>
+        <div class="bar"><label>MySQL</label><i data-w="75"></i></div>
+        <div class="bar"><label>Web &amp; Mobile Development</label><i data-w="72"></i></div>
+      </div>
+      <div class="card reveal">
+        <h4>Tools &amp; Support</h4>
+        <div class="chips">
+          <span>Google Colab</span><span>TensorFlow</span><span>Java</span><span>MS Office</span>
+          <span>Canva</span><span>IT Support</span><span>Troubleshooting</span><span>System Maintenance</span>
+        </div>
+        <h4 style="margin-top:1.5rem">Soft Skills</h4>
+        <div class="chips">
+          <span>Communication</span><span>Adaptability</span><span>Attention to Detail</span><span>Teamwork</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h3 class="title reveal">Featured <span class="grad">Projects</span></h3>
+    <div class="projects">
+      <article class="project reveal">
+        <img src="images/project-shina.jpg" alt="Shina Language Translator" onerror="this.onerror=null;this.src='images/placeholder-project1.svg'" />
+        <div class="p-body">
+          <span class="tag">Final Year Project</span>
+          <h4>AI-Based Shina Language Translator</h4>
+          <p>Research on machine translation for a low-resource language using large language models. Built a translation model in TensorFlow for Shina, created a bilingual Shina–English–Urdu dataset, and applied POS tagging and text preprocessing. Aims to preserve linguistic heritage and support education and digital inclusion.</p>
+          <div class="chips"><span>NLP</span><span>TensorFlow</span><span>LLMs</span><span>Python</span></div>
+          <!-- Add your link: <a class="link" href="YOUR_LINK">View project →</a> -->
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <img src="images/project-face.jpg" alt="Face Recognition Attendance System" onerror="this.onerror=null;this.src='images/placeholder-project2.svg'" />
+        <div class="p-body">
+          <span class="tag">Capstone · NUST DSAI Course</span>
+          <h4>Face Recognition Attendance System</h4>
+          <p>A high-performance attendance system that recognizes registered members by face, marks their attendance automatically, and stores the records in an Excel sheet.</p>
+          <div class="chips"><span>Computer Vision</span><span>Python</span><span>Excel</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <img src="images/project-mobile.jpg" alt="Mobile Application in Java" onerror="this.onerror=null;this.src='images/placeholder-project3.svg'" />
+        <div class="p-body">
+          <span class="tag">Semester Project</span>
+          <h4>Mobile Application Using Java</h4>
+          <p>A multi-module mobile app with a calculator and data management features: collect, update, delete and store data.</p>
+          <div class="chips"><span>Java</span><span>Android</span><span>CRUD</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h3 class="title reveal">Work <span class="grad">Experience</span></h3>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <span class="dot"></span>
+        <div class="card">
+          <small>July 2023 – Oct 2023</small>
+          <h4>Content Creator &amp; Social Media Manager</h4>
+          <em>Intellectual Rush Digital Agency, Skardu</em>
+          <ul>
+            <li>Managed social media accounts and boosted engagement through strategic content planning.</li>
+            <li>Designed and ran end-to-end digital marketing campaigns: posts, reels, blogs and ads.</li>
+            <li>Analyzed performance metrics to optimize reach and conversion rates.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h3 class="title reveal">Education &amp; <span class="grad">Certifications</span></h3>
+    <div class="skills-grid">
+      <div class="card reveal">
+        <small>2022 – 2026</small>
+        <h4>BS Computer Science</h4>
+        <em>University of Baltistan, Skardu · CGPA 3.56 / 4.00</em>
+        <p>Coursework includes Machine Learning, Deep Learning, NLP, Computer Vision, Web and App Development, Computer Networks, Data Structures &amp; Algorithms, and Management.</p>
+      </div>
+      <div class="card reveal">
+        <h4>Certifications &amp; Awards</h4>
+        <ul class="ticks">
+          <li>Data Science and Artificial Intelligence High Impact Course</li>
+          <li>Big Data Workshop with Chengdu Aeronautic Polytechnic</li>
+          <li>Introduction to Mobile App Development</li>
+          <li>Graphic Design using Canva</li>
+          <li>Project Showcase (NLP), University of Baltistan, Skardu</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h3 class="title reveal">Get In <span class="grad">Touch</span></h3>
+    <div class="about-grid">
+      <div class="card reveal info">
+        <p>Open to research collaborations, supervision opportunities and AI projects. Let's talk!</p>
+        <ul>
+          <li><span>✉️</span> <a href="mailto:mureeddroty@gmail.com">mureeddroty@gmail.com</a></li>
+          <li><span>📞</span> <a href="tel:+92370085882">+92 370085882</a></li>
+          <li><span>📍</span> Gilgit-Baltistan, Pakistan</li>
+          <!-- Add your links, e.g. <li><span>💼</span> <a href="YOUR_LINKEDIN">LinkedIn</a></li> -->
+        </ul>
+      </div>
+      <form class="card reveal" id="form">
+        <input id="name" placeholder="Your name" required />
+        <input id="email" type="email" placeholder="Your email" required />
+        <textarea id="msg" rows="5" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Mureed Hussain Droty. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
